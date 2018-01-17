@@ -49,8 +49,12 @@ Next, add the following to your configuration file:
   '(add-hook 'flycheck-mode-hook #'flycheck-mmark-setup))
 ```
 
-Also make sure that you enable the `flycheck-mode` minor mode itself with
-`markdown-mode`.
+Also make sure that you enable the `flycheck-mode` minor mode itself in
+`markdown-mode`, this can be done for example like this:
+
+```emacs-lisp
+(add-hook 'markdown-mode-hook #'flycheck-mode)
+```
 
 ## Customization
 

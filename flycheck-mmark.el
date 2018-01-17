@@ -1,4 +1,4 @@
-;;; flycheck-mmark.el --- Flycheck support for MMark markdown processor -*- lexical-binding: t; -*-
+;;; flycheck-mmark.el --- Flycheck checker for MMark markdown processor -*- lexical-binding: t; -*-
 ;;
 ;; Copyright © 2018 Mark Karpov <markkarpov92@gmail.com>
 ;;
@@ -25,7 +25,7 @@
 
 ;;; Commentary:
 
-;; TODO
+;; This package provides a Flycheck checker for MMark markdown processor.
 
 ;;; Code:
 
@@ -33,7 +33,7 @@
 (require 'json)
 
 (defgroup flycheck-mmark nil
-  "Flycheck support for MMark markdown processor."
+  "Flycheck checker for MMark markdown processor."
   :group  'flycheck
   :tag    "Flycheck MMark"
   :prefix "flycheck-mmark-"
