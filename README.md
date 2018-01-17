@@ -56,11 +56,6 @@ Also make sure that you enable the `flycheck-mode` minor mode itself in
 (add-hook 'markdown-mode-hook #'flycheck-mode)
 ```
 
-## Customization
-
-There is a number of customization options that are available via <kbd>M-x
-customize-group flycheck-mmark</kbd>.
-
 ## License
 
 Copyright © 2018 Mark Karpov
