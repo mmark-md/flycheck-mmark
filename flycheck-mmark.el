@@ -62,7 +62,7 @@ checked."
   "A syntax checker for MMark markdown processor using ‘mmark’ CLI tool.
 
 See: https://github.com/mmark-md/mmark-cli"
-  :command        ("mmark" "--json" "--ofile" "/dev/null")
+  :command        ("mmark" "--json" "--ofile" null-device)
   :standard-input t
   :error-parser   flycheck-mmark-parse-errors
   :modes          markdown-mode)
