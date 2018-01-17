@@ -29,7 +29,6 @@
 
 ;;; Code:
 
-(require 'cl-lib)
 (require 'flycheck)
 (require 'json)
 
@@ -53,7 +52,6 @@ checked."
          (flycheck-error-new
           :checker checker
           :buffer  buffer
-          :filename (cdr (assoc 'file   err))
           :line     (cdr (assoc 'line   err))
           :column   (cdr (assoc 'column err))
           :message  (cdr (assoc 'text   err))
@@ -64,9 +62,8 @@ checked."
   "A syntax checker for MMark markdown processor using ‘mmark’ CLI tool.
 
 See: https://github.com/mmark-md/mmark-cli"
-  :command        ("mmark" "--json"
-                   "--ifile" source-inplace
-                   "--ofile" "/dev/null")
+  :command        ("mmark" "--json" "--ofile" "/dev/null")
+  :standard-input t
   :error-parser   flycheck-mmark-parse-errors
   :modes          markdown-mode)
 
