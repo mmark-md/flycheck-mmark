@@ -16,8 +16,9 @@ TODO: mention MELPA once the package is there.
 
 ## Usage
 
-First of all, build the [`mmark-cli`]() executable and place it on your
-`PATH`. The easiest way to do that is currently the following:
+First of all, build the [`mmark-cli`](https://github.com/mmark-md/mmark-cli)
+executable and place it on your `PATH`. The easiest way to do that is
+currently the following:
 
 ```
 $ git clone https://github.com/mmark-md/mmark-cli.git mmark-cli
