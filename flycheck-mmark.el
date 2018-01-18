@@ -6,7 +6,7 @@
 ;; URL: https://github.com/mmark-md/flycheck-mmark
 ;; Version: 0.1.0
 ;; Package-Requires: ((emacs "24.4") (flycheck "0.29"))
-;; Keywords: convenience
+;; Keywords: convenience, text
 ;;
 ;; This file is not part of GNU Emacs.
 ;;
