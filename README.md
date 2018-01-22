@@ -12,7 +12,8 @@ This package provides a [Flycheck](http://www.flycheck.org) checker for
 Download this package and place it somewhere, so Emacs can see it. Then put
 `(require 'flycheck-mmark)` into your configuration file. Done!
 
-TODO: mention MELPA once the package is there.
+It's available via MELPA, so you can just <kbd>M-x package-install RET
+flycheck-mmark</kbd>.
 
 ## Usage
 
