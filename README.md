@@ -4,7 +4,7 @@
 [![MELPA](https://melpa.org/packages/flycheck-mmark-badge.svg)](https://melpa.org/#/flycheck-mmark)
 [![Build Status](https://travis-ci.org/mmark-md/flycheck-mmark.svg?branch=master)](https://travis-ci.org/mmark-md/flycheck-mmark)
 
-This package provides a [Flycheck](http://www.flycheck.org) checker for
+This package provides a [Flycheck](http://www.flycheck.org) checker for the
 [MMark](https://github.com/mmark-md/mmark) markdown processor.
 
 ## Installation
