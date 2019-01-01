@@ -59,6 +59,6 @@ Also make sure that you enable the `flycheck-mode` minor mode itself in
 
 ## License
 
-Copyright © 2018 Mark Karpov
+Copyright © 2018–2019 Mark Karpov
 
 Distributed under GNU GPL, version 3.
