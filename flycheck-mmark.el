@@ -1,6 +1,6 @@
 ;;; flycheck-mmark.el --- Flycheck checker for the MMark markdown processor -*- lexical-binding: t; -*-
 ;;
-;; Copyright © 2018–2019 Mark Karpov <markkarpov92@gmail.com>
+;; Copyright © 2018–present Mark Karpov <markkarpov92@gmail.com>
 ;;
 ;; Author: Mark Karpov <markkarpov92@gmail.com>
 ;; URL: https://github.com/mmark-md/flycheck-mmark
