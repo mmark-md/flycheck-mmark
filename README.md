@@ -2,7 +2,7 @@
 
 [![License GPL 3](https://img.shields.io/badge/license-GPL_3-green.svg)](http://www.gnu.org/licenses/gpl-3.0.txt)
 [![MELPA](https://melpa.org/packages/flycheck-mmark-badge.svg)](https://melpa.org/#/flycheck-mmark)
-[![Build Status](https://travis-ci.org/mmark-md/flycheck-mmark.svg?branch=master)](https://travis-ci.org/mmark-md/flycheck-mmark)
+[![CircleCI](https://circleci.com/gh/mmark-md/flycheck-mmark/tree/master.svg?style=svg)](https://circleci.com/gh/mmark-md/flycheck-mmark/tree/master)
 
 This package provides a [Flycheck](http://www.flycheck.org) checker for the
 [MMark](https://github.com/mmark-md/mmark) markdown processor.
