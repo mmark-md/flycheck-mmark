@@ -66,7 +66,7 @@ See: https://github.com/mmark-md/mmark-cli"
   :command        ("mmark" "--json" "--ofile" null-device)
   :standard-input t
   :error-parser   flycheck-mmark-parse-errors
-  :modes          markdown-mode)
+  :modes          (zettel-mode markdown-mode))
 
 ;;;###autoload
 (defun flycheck-mmark-setup ()
