@@ -9,11 +9,16 @@ This package provides a [Flycheck](http://www.flycheck.org) checker for the
 
 ## Installation
 
-Download this package and place it somewhere, so Emacs can see it. Then put
-`(require 'flycheck-mmark)` into your configuration file. Done!
+The package is available via MELPA, so you can just type `M-x
+package-install RET flycheck-mmark RET`.
 
-It's available via MELPA, so you can just <kbd>M-x package-install RET
-flycheck-mmark</kbd>.
+If you would like to install the package manually, download or clone it and
+put on Emacs' `load-path`. Then you can require it in your init file like
+this:
+
+```emacs-lisp
+(require 'flycheck-mmark)
+```
 
 ## Usage
 
@@ -50,7 +55,7 @@ Next, add the following to your configuration file:
   '(add-hook 'flycheck-mode-hook #'flycheck-mmark-setup))
 ```
 
-Also make sure that you enable the `flycheck-mode` minor mode itself in
+Also make sure that you enable the `flycheck-mode` minor mode itself in the
 `markdown-mode`, this can be done for example like this:
 
 ```emacs-lisp
